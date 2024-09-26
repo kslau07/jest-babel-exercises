@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": "true"
+  },
+  "extends": ["airbnb-base"],
+  "plugins": ["jest"],
+  "overrides": [
+    {
+      "files": ["**/*.test.js"],
+      "env": { "jest/globals": true },
+      "plugins": ["jest"],
+      "extends": ["plugin:jest/recommended"]
+    }
+  ]
+}

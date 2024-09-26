@@ -1,8 +1,8 @@
 {
-  "name": "jest-babel-demo",
+  "name": "jest-babel-exercises",
   "version": "1.0.0",
   "private": true,
-  "main": "instructions.js",
+  "main": "capitalize.js",
   "scripts": {
     "test": "jest"
   },
@@ -16,6 +16,7 @@
     "babel-jest": "^29.7.0",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.30.0"
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jest": "^28.8.3"
   }
 }
