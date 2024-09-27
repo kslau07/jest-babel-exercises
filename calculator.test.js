@@ -2,7 +2,7 @@
 
 import calculator from './calculator';
 
-describe('calculator', () => {
+describe('calculator object', () => {
   it('should be defined', () => {
     expect(calculator).toBeDefined();
   });
