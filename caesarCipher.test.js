@@ -2,26 +2,26 @@
 
 import caesarCipher from './caesarCipher';
 
-describe('caesarCipher method', () => {
+describe('caesarCipher function', () => {
   it('should be defined', () => {
     expect(caesarCipher).toBeDefined();
   });
 
   test('if "HeLLo" returns "KhOOr"', () => {
-    const input = 'a.';
+    const input = 'HeLLo';
     const shift = 3;
     const expected = 'KhOOr';
     expect(caesarCipher(input, shift)).toBe(expected);
   });
 
-  it.skip('should wrap xyz to abc after shifting by 3', () => {
+  it('should wrap xyz to abc after shifting by 3', () => {
     const input = 'xyz';
     const shift = 3;
     const expected = 'abc';
     expect(caesarCipher(input, shift)).toBe(expected);
   });
 
-  it.skip('should preserve punctuation', () => {
+  it('should preserve punctuation', () => {
     const input = 'Hello, World!';
     const shift = 3;
     const expected = 'Khoor, Zruog!';

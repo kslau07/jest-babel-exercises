@@ -2,7 +2,11 @@
 
 import capitalize from './capitalize';
 
+<<<<<<< HEAD
 describe('capitalize method', () => {
+=======
+describe('capitalize function', () => {
+>>>>>>> 5b73e794f7de0ad798b01df07f2e160e2ee12fa1
   test('if capitalize module exists', () => {
     expect(capitalize).toBeDefined();
   });
