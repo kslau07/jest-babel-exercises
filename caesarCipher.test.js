@@ -2,7 +2,7 @@
 
 import caesarCipher from './caesarCipher';
 
-describe('caesarCipher method', () => {
+describe('caesarCipher function', () => {
   it('should be defined', () => {
     expect(caesarCipher).toBeDefined();
   });
