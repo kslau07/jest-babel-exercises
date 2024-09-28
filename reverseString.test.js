@@ -2,7 +2,7 @@
 
 import reverseString from './reverseString';
 
-describe('reverseString', () => {
+describe('reverseString method', () => {
   test('if reverseString is defined', () => {
     expect(reverseString).toBeDefined();
   });

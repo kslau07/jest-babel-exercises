@@ -2,7 +2,11 @@
 
 import capitalize from './capitalize';
 
-describe('capitalize', () => {
+describe('capitalize method', () => {
+  test('if capitalize module exists', () => {
+    expect(capitalize).toBeDefined();
+  });
+
   test('if it capitalizes the first character in a given string', () => {
     const testCases = [
       { string: 'hello', expected: 'Hello' },
